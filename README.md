@@ -32,9 +32,9 @@ For this part used custom sort function to correctly order the incorrect update 
 
 ## Day 6
 ### Part 1 :
-Normally iterated to move the guard through the grid and counted the places she visted
+Normally iterated to move the guard through the grid and counted the places she visited
 ### Part 2 :
-I wasted time thinking of a clever solution , but in the end used brotue force, for every position it visited one by one replaced it with walls and then checked for cycles
+I wasted time thinking of a clever solution, but in the end used brotue force, for every position she visited one by one replaced it with walls and then checked for cycles
 
 ## Day 7
 ### Part 1 :
