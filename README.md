@@ -44,9 +44,9 @@ A new operator, designed its inverse operator and integrated it in the part 1 co
 
 ## Day 8
 ### Part 1 :
-For each pair of antennas , calculated the antinodes using _section formula_ if they where in-bound of the map considered them for calculating result  
+For each pair of antennas, calculated the antinodes using **section formula**, if they where in-bound of the map, considered them for calculating result  
 ### Part 2 :
-For each pair go on generating antinodes this they go out of bounds, use set to track only unique antinodes 
+For each pair went on generating antinodes till they go out of bounds, used a ```set``` to track only unique antinodes 
 
 ## Day 9
 ### Part 1 :
