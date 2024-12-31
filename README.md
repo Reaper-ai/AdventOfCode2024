@@ -40,7 +40,7 @@ I wasted time thinking of a clever solution, but in the end used brotue force, f
 ### Part 1 :
 I first tried brute force using iterative * and + and but then in reddit i saw people use recursion and use / and - , i then modified my code to do the same
 ### Part 2 :
-A new operator, designed its inverse operator and done
+A new operator, designed its inverse operator and integrated it in the part 1 code
 
 ## Day 8
 ### Part 1 :
