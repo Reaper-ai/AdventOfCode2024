@@ -26,7 +26,7 @@ Used if else to find all configuration of the **X(cross)**
 
 ## Day 5
 ### Part 1 :
-For each ordering check if both pairs exist in the manual, used their index to check if they are in correct order
+For each ordering, check if both pairs exist in the manual, used their index to check if they are in correct order
 ### Part 2 :
 For this part used custom sort function to correctly order the incorrect update manauls 
 
