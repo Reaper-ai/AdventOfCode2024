@@ -100,7 +100,7 @@ Modified the modified Dijkstra, get distance of all points from start and end, f
 ### Part 1 : 
 Fun puzzle, got some insight about how assemblers work
 ### Part 2 :
-First i tried to Brute force to solution, didn't work, then i tried to se any pattern by manual I/O, did not found something to use then i finally sat down to see what the program was doing and manually performing the operations and reverse engineering the assembler. but could not implement it successfully alone, thanks to [hypernetrunio](http://www.youtube.com/@hyper-neutrino) to help implement it 
+First i tried to Brute force to solution, didn't work, then i tried to see any patterns by manual I/O, did not found something to use from it, then i finally sat down to see what the program was doing and manually performing the operations and reverse engineering the assembler. but could not implement it successfully alone, thanks to [hypernetrunio](http://www.youtube.com/@hyper-neutrino) to help implement it 
 
 ## Day 18
 ### Part 1 :
