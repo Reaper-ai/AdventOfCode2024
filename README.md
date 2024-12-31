@@ -14,7 +14,7 @@ To account for the Problem Dampener, count the number of problems in each level,
  
 ## Day 3
 ### Part 1 :
-This puzzle finally forced me learn **regex** extracted all ```mul(x,y)``` from the input and used ```eval()``` to calculate the value
+This puzzle finally forced me learn **regex**, extracted all ```mul(x,y)``` from the input and used ```eval()``` to calculate the value
 ### Part 2 :
 For this part used regex to find ```do```s and ```don't```s in the input and used a boolen flag to only calculate the ```mul()``` when the operation is _enabled_.  
 
