@@ -124,13 +124,13 @@ About part 2 thought it was gonna be difficult but after i saw the puzzle, i was
 ### Part 1 :
 This was the most difficult puzzle for me, because i didn't thought that the order of button presses will change the answer, also didn't thought that ```<``` is more costly that other due to it being further away from ```A``` thanks to [u/boojum's](https://www.reddit.com/r/adventofcode/comments/1hj2odw/comment/m3482ai/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) post and the comments under it for such insights, i also didn't thought the blank space wiil be of any significance but it was, after considering it all i finally made it work 
 ### Part 2 :
-Ahh! for part two it didn't sacle well as i was calculating the path per iteration, i tried ```numba jit, cache , pypy and multiprocessing```and their combinations, in the end I just stored all combinations in dictonairies and looked them up when needed  
+Ahh! for part two it didn't scale well as i was calculating the path per iteration, i tried ```numba jit, cache , pypy and multiprocessing```and their combinations to enhance the performance but that didn't work, in the end I just stored all combinations in dictonairies and looked them up when needed  
 
 ## Day 22
 ### Part 1 :
 Just Brute forced all of it to find the result, it was faster than expected  
 ### Part 2 :
-For every sequence of 4 differences store the first price value associated with it and result is the max value in the dictonary
+For every sequence of 4 differences store the first price value associated with it and result is the max value in the dictionary
 
 ## Day 23
 ### Part 1 :
