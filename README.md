@@ -50,9 +50,9 @@ For each pair went on generating antinodes till they go out of bounds, used a ``
 
 ## Day 9
 ### Part 1 :
-Expanded the disk, used two pointers to compress the disk, but the disk compressed like  this ```#####.....#####``` i wasted my mind what was the problem and then in the end just rearranged the result disk to get the answer maybe look back it later 
+Expanded the disk, used two pointers to compress the disk, but the disk compressed like  this ```#####.....#####``` i wasted my mind what was the problem and in the end just rearranged the result disk to get the answer maybe look back at it later 
 ### Part 2 :
-After many failed attempts for this i took help from reddit, instead solve it visually, turn each fragment into a ```node(filename, size)``` and then transverse and re arrange the files in the disk
+After many failed attempts, i took help from reddit, instead solve it visually, turn each fragment into a ```node(filename, size)``` and then transverse and rearrange the files in the disk
 
 ## Day 10
 ### Part 1 :
