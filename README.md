@@ -70,7 +70,7 @@ As always brute force lost to time, got a hint that order does not matter as opp
 ### Part 1 :
 Used BFS to find all the regions in the grid and calculate their area and perimeter 
 ### Part 2 :
-Another tricky puzzle, i tried to solve it so to reuse my part 1 code as much as possible, i had a idea to use ray tracing to find the sides but there are too many regions, I got a hint that _no. of sides = no. of corners_ i use this detail to count corners and compute the result
+Another tricky puzzle, i tried to solve it so to reuse my part 1 code as much as possible, i had a idea to use ray tracing to find the sides but there are too many regions, I got a hint that _no. of sides = no. of corners_ i used this detail to count corners and compute the result
 
 ## Day 13
 ### Part 1 :
