@@ -88,7 +88,7 @@ Used statistics to find standard deviation of first 10000 configurations, and pl
 ### Part 1 :
 Just moved around boxes
 ### Part 2 :
-Now the grid is twice as big, horizontal motion is same but vertical motion is now tricky after trying BFS, DFS like algorithms and some other things, my implementation always messed up the brackets as i tried to solve visually, i then used [u/bakibols](https://www.reddit.com/r/adventofcode/comments/1hele8m/comment/m261opg/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)"s implementation to use complex number, and use a single process for both horizontal and vertical motion instead of seperate functions
+Now the grid is twice as big, horizontal motion is same but vertical motion is now tricky after trying BFS, DFS like algorithms and some other things, my implementation always messed up the brackets as i tried to solve visually, i then used [u/bakibol's](https://www.reddit.com/r/adventofcode/comments/1hele8m/comment/m261opg/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) implementation to use complex number, and use a single process for both horizontal and vertical motion instead of seperate functions
 
 ## Day 16
 ### Part 1 :
