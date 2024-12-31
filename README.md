@@ -116,13 +116,13 @@ Scraped part 1 and used DP to find answer for part 2 and then modified it to fin
 
 ## Day 20
 ### Part 1 :
-At first i thought reusing the previous Dijkstra to find shortest path,and identify all potential cheats in the shortest path, and iterate over them to find the result but it was too slow on the input. My second approach was to find distances of all walkable positions from the end, then running Dijkstra to find optimal path, while finding neighbors, if neighbor is a wall and its neighbor is a free space and check if the difference of distances of both the points (current node and node behind wall of current node) is enough to save 100ps in the race   
+At first i thought reusing the previous Dijkstra to find shortest path, and identify all potential cheats in the shortest path, and iterate over them to find the result but it was too slow on the input. My second approach was to find distances of all walkable positions from the end, then running Dijkstra to find optimal path, while finding neighbors, if neighbor is a wall and its neighbor is a free space and check if the difference of distances of both the points (current node and node behind wall of current node) is enough to save 100ps in the race   
 ### Part 2 :
 About part 2 thought it was gonna be difficult but after i saw the puzzle, i was so proud of my implementation of first half, it was so perfectly set for part 2, i just needed to write a loop to check for all cheats that saved >=100ps 
 
 ## Day 21
 ### Part 1 :
-This was the most difficult puzzle for me, because i didn't thought that the order of button presses will change the answer, also didn't thought that ```<``` is more costly that other due to it being further away from ```A``` thanks to [u/boojum](https://www.reddit.com/r/adventofcode/comments/1hj2odw/comment/m3482ai/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) post and the comments under it for such insights, i also didn't thought the blank space wiil be of any significance but it was, after considering it all i finally made it work 
+This was the most difficult puzzle for me, because i didn't thought that the order of button presses will change the answer, also didn't thought that ```<``` is more costly that other due to it being further away from ```A``` thanks to [u/boojum's](https://www.reddit.com/r/adventofcode/comments/1hj2odw/comment/m3482ai/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) post and the comments under it for such insights, i also didn't thought the blank space wiil be of any significance but it was, after considering it all i finally made it work 
 ### Part 2 :
 Ahh! for part two it didn't sacle well as i was calculating the path per iteration, i tried ```numba jit, cache , pypy and multiprocessing```and their combinations, in the end I just stored all combinations in dictonairies and looked them up when needed  
 
