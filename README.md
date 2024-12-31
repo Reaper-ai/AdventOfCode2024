@@ -112,11 +112,11 @@ Dijkstra with binary search
 ### Part 1 :
 Used recursive backtracking to find the possible combinations
 ### Part 2 :
-Scraped part 1 and used DP to find answer for part2 and then modified it to find part 1 answer
+Scraped part 1 and used DP to find answer for part 2 and then modified it to find part 1 answer
 
 ## Day 20
 ### Part 1 :
-At first i though reusing the previous Dijkstra to find shortest path,and identify all potential cheats in the shortest path, and iterate over them to find the result but it was too slow on the input. My second approach was to find distances of all walkable positions from the end, then running Dijkstra to find optimal path, while finding neighbors, if neighbor is a wall and its neighbor is a free space and check if the difference of distances of both the points (current node and node behind wall of current node) is enough to save 100ps in the race   
+At first i thought reusing the previous Dijkstra to find shortest path,and identify all potential cheats in the shortest path, and iterate over them to find the result but it was too slow on the input. My second approach was to find distances of all walkable positions from the end, then running Dijkstra to find optimal path, while finding neighbors, if neighbor is a wall and its neighbor is a free space and check if the difference of distances of both the points (current node and node behind wall of current node) is enough to save 100ps in the race   
 ### Part 2 :
 About part 2 thought it was gonna be difficult but after i saw the puzzle, i was so proud of my implementation of first half, it was so perfectly set for part 2, i just needed to write a loop to check for all cheats that saved >=100ps 
 
